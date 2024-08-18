@@ -39,19 +39,15 @@ const Sidebar = () => {
         <Sider
             breakpoint="lg"
             collapsedWidth="0"
-            onBreakpoint={(broken) => {
-                console.log(broken);
-            }}
-            onCollapse={(collapsed, type) => {
-                console.log(collapsed, type);
-            }}
+           style={{height:'100vh', position:'sticky', top:'0', left:'0'}}
         >
             <div style={{
                 color: "white",
                 height: '4rem',
                 display: "flex",
                 justifyContent: "center",
-                alignItems: "center"
+                alignItems: "center",
+
             }} >
                 <h1 className='text-xl' >PH University</h1>
             </div>

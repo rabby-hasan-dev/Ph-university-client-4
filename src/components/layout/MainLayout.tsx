@@ -26,7 +26,7 @@ const MainLayout = () => {
 
     return (
         <div>
-            <Layout style={{ height: '100vh' }}>
+            <Layout style={{ height: '100%' }}>
                 <Sidebar></Sidebar>
                 <Layout>
                     <Header style={{ padding: 0, background: colorBgContainer }} >
@@ -37,8 +37,7 @@ const MainLayout = () => {
                             style={{
                                 padding: 24,
                                 minHeight: 360,
-                                background: colorBgContainer,
-                                borderRadius: borderRadiusLG,
+                               
                             }}
                         >
                             <Outlet></Outlet>

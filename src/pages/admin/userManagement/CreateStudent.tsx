@@ -1,10 +1,12 @@
 
+
+
 const CreateStudent = () => {
     return (
         <div>
-            <h1>Create student components</h1>
-        </div>
-    );
+        <h2>Create Student Component</h2>
+    </div>
+    )
 };
 
 export default CreateStudent;
